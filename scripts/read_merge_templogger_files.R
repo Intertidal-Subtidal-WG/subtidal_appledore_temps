@@ -10,7 +10,7 @@ setwd(here::here())
 #what are the files we want to use
 files <- list.files("logger_info/", full.names = TRUE)
 
-#read in files
+#read in files # ELLEN is wreaking havoc on this code
 all_files <- map(files, read_excel)
 
 #bind this into a data frame
