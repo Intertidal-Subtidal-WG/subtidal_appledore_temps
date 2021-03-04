@@ -1,6 +1,13 @@
 # Data to create temperature record at Appledore
 
-## Giant Raster
-This is a giant raster file in the directory giant_raster/
-I am not uploading it and it is in .gitignore
-To get the file, go to .......
+## logger_info
+Logger info (ID, depolyment, retrieval, etc) recorded during KEEN field campaign
+
+## buoy_data
+Data downloaded from 44030 using rnoaa
+
+## hobo_files
+Raw hobo logs from loggers deployed in the field
+
+## processed_data
+Different processed data files from scripts in this repo
