@@ -37,4 +37,5 @@ ggplot(ne_event$climatology %>%
         pivot_longer(c(oisst_temp, seas, thresh), 
                      names_to = "type", values_to = "temperature"),
        aes(x = datetime, y = temperature, color = type)) +
-  geom_line()
+  geom_point(size = 0.1) +
+  facet_wrap(~lubridate::month(datetime))
